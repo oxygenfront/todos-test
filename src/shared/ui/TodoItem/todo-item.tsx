@@ -1,7 +1,7 @@
 import { checkTodo, deleteTodo, editTodo } from '@/entities/todo/model';
 import { useAppDispatch } from '@/shared/lib/hooks';
-import { EditMode } from '@/shared/ui/TodoItem/EditMode';
-import { ViewMode } from '@/shared/ui/TodoItem/ViewMode';
+import { EditMode } from '@/features/EditMode';
+import { ViewMode } from '@/features/ViewMode';
 import type { TTodo } from '@/types/todos';
 
 import { Box } from '@mui/material';
